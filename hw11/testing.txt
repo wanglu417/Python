@@ -1,0 +1,27 @@
+Functions I will test:
+
+coordinate:
+This function will convert the mouse coordinates to the square index in the list of lists.
+We can test this function by giving a input value of coordinates x and y. A good example can be: if the input is (99,99), the 
+output shoud be (0,0). If the input is (201,201),the output should be (2,2). A bad result can be: if the input is (99,99) and 
+the output is (1,1), it is a bad test.
+
+
+tiles constructor:
+This constrctor will create a variable for each tils being placed and give every tile size 85. A good example
+is every tile being created will have the exact same size 85. A bad example is tiles may have different sizes not 
+euqual to 85, or tiles cannot be created.
+
+board constructor:
+This constructor creates a list of x lists(x is equal to the column/row number of the board).Also, x and y coordinates of 
+the first four tiles should be positioned. When the size of the board is the same as the number of elements in the list, it is a 
+good result. Otherwise, it is a bad result. 
+
+exist_tiles:
+This function checks whether a tile with the same index in the board list is filled or not. If it is filled, it will return True; If
+not, it will return False. If it returns True when the index value is 1 or 2 and returns false when the index value is 0, it is a good result. 
+Otherwise, it is a bad result. 
+
+
+
+

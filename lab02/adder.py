@@ -1,0 +1,12 @@
+x = input('Enter a first value: ')
+y = input('Enter a second velue ')
+num1 = int(x )
+num2 = int(y)
+print("The sum of", num1, '+', num2, "is", num1 + num2)
+def main():
+    x = input('Enter a first value: ')
+    y = input('Enter a second velue ')
+    num1 = int(x)
+    num2 = int(y)
+    print("The sum of", num1, '+', num2, "is", num1 + num2)
+main()

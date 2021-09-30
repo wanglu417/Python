@@ -1,0 +1,42 @@
+1. Is the following a legal Python program?
+   Yes, it is a legal program, because there is no syntax error, but it is not an efficient program. This program consists of
+   two proc functions and one main function.
+
+
+2. Is the following a legal Python program?
+   Yes, it is a legal program, because there is no syntax error. This program consists of one proc function and one main function.
+
+
+3. Is the following a legal Python program?
+   Yes,it is a legal program. In the first function, proc funtion is defined. In the main function, a parameter is provided to use the
+   proc function. The main function is called to produce the result.
+
+4. Is the following a legal Python program?
+   Yes, it is a legal program. It firstly defines proc function with two parameters and then use a return statement to communicate 
+   information to its caller.The second main function provides argumentts x and y. The main function is called to generate the result
+   26.
+
+5. Is the following a legal Python program?
+   No, this is not a legal program. For the main function, only one argument was provided, but the proc function needs two arguments x
+   and y.
+
+6. Is the following a legal Python program?
+   No, it is not a legal program. because proc function takes 1 positional argument but 2 were given in the main function.
+
+7. Is the following a legal Python program?
+   Yes，it is a legal program. The proc function takes 1 argument x and the main function provides 5 for x to get 2*5*5 = 50
+
+8. The programmer was expecting the following program to print 200. What does it print instead? Why does it print what it does?
+   It prints 10. Because the proc function comminucates nothing back to its caller, the main function just print the value of num as
+   called. If proc funtion returns 2*x*x, the program will prints 200.
+
+9. Is the following program legal since the variable x is used in two different places (proc and main)? Why or why not?
+   Yes, this program is legal. X in the two functions represents different things. In the proc function. x is a parameter for 
+   function procm; In the main function, x is a variable and we give it a value 10, and then we pass value 10 to the function proc
+   and get 200.
+
+10. Is the following program legal since the actual parameter has a different name from the formal parameter (y vs. x)? Why or why not?
+   Yes, it is a legal program because even through the actual parameter and formal parameter have different names x and y, but they are
+   both arguments of function proc. The proc function uses return to communicate information back to its caller, and main function provides
+   a value to the parameter and prints the result 200. 
+
